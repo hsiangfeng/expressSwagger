@@ -18,7 +18,7 @@
     "/": {
       "get": {
         "tags": [
-          "User"
+          "Index"
         ],
         "description": "",
         "parameters": [],
@@ -28,7 +28,7 @@
     "/post": {
       "post": {
         "tags": [
-          "User"
+          "Index"
         ],
         "description": "",
         "parameters": [],
@@ -38,7 +38,7 @@
     "/put": {
       "put": {
         "tags": [
-          "User"
+          "Index"
         ],
         "description": "",
         "parameters": [],
@@ -46,6 +46,46 @@
       }
     },
     "/delete": {
+      "delete": {
+        "tags": [
+          "Index"
+        ],
+        "description": "",
+        "parameters": [],
+        "responses": {}
+      }
+    },
+    "/users/": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "description": "",
+        "parameters": [],
+        "responses": {}
+      }
+    },
+    "/users/post": {
+      "post": {
+        "tags": [
+          "User"
+        ],
+        "description": "",
+        "parameters": [],
+        "responses": {}
+      }
+    },
+    "/users/put": {
+      "put": {
+        "tags": [
+          "User"
+        ],
+        "description": "",
+        "parameters": [],
+        "responses": {}
+      }
+    },
+    "/users/delete": {
       "delete": {
         "tags": [
           "User"
