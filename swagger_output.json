@@ -11,7 +11,6 @@
   "schemes": [
     "http"
   ],
-  "securityDefinitions": {},
   "consumes": [],
   "produces": [],
   "paths": {
@@ -67,9 +66,7 @@
     },
     "/users/post": {
       "post": {
-        "tags": [
-          "User"
-        ],
+        "tags": [],
         "description": "",
         "parameters": [],
         "responses": {}

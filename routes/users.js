@@ -1,16 +1,14 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET users listing. */
-router.get('/', function(req, res, next) {
-  // #swagger.tags = ['User']
-  res.send('respond with a resource');
-});
+const usersControllers = require('../controllers/users');
 
-router.post('/post', function(req, res, next) {
-  // #swagger.tags = ['User']
-  res.send('respond with a resource');
-});
+const { post }= usersControllers;
+
+/* GET users listing. */
+router.get('/', usersControllers.home);
+
+router.post('/post', post);
 
 router.put('/put', function(req, res, next) {
   // #swagger.tags = ['User']
